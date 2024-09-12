@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Bitter", serif;
+}
+h1,
+h5 {
+  color: #210a72;
+}
+
+.input {
+  border: 2px solid #210a72;
+  box-shadow: 2px 2px 10px #210a72;
+}
+
+.fever {
+  border: 2px solid black !important;
+  transition: all 0.3s;
+  border-radius: 5px;
+}
+
+.fever:focus,
+.fever:active {
+  border: 2px solid #210a72 !important;
+  outline: none;
+  box-shadow: 2px 2px 10px #210a72;
+}
+
+.button {
+  padding: 5px;
+  background-color: #01dcc9;
+  color:black;
+  border-radius: 7px;
+  transition: all 0.3s;
+}
+
+.button:hover,
+.button:active {
+  background-color: #210a72;
+  color: white;
+  box-shadow: 2px 2px 10px #210a72;
+}
+
+.table {
+  border: 2px solid #210a72;
+}
+
+.head {
+  background-color: #210a72 !important;
+  color: white !important;
+}
+
+#status,
+#grade {
+  background-color: #01dcc9;
+}
+
+.rest {
+  display: flex !important;
+  flex-wrap: wrap;
+  column-gap: 5px;
+  row-gap: 10px;
+}
